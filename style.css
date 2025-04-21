@@ -21,6 +21,13 @@ body {
     transform-origin: center;
 }
 
+.card-container {
+    display: flex;
+    gap: 40px; /* Расстояние между карточками */
+    justify-content: center;
+    align-items: center;
+}
+
 .card:hover {
     transform: scale(1.5);
 }
